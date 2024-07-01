@@ -1,0 +1,44 @@
+/*Resetar CSS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: rgb(148, 144, 82);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#yes{
+    padding: 10px 30px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+}
+#no{
+    /* position: absolute; */
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    border: none;  
+    border-radius: 10px; 
+}
+.texto{
+    background-color: white;
+    width: 40vw;
+    height: 400px;
+    border-radius: 40px;
+}
+.btn-area{
+    margin-top: 30px;
+    gap:20px ;
+    display: flex;
+    justify-content: center;    
+}
+button:hover{
+    opacity:0.6 ;
+}
